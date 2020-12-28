@@ -1,23 +1,22 @@
 document.addEventListener("DOMContentLoaded",function(){
+    var btn = document.querySelector('.container button.btn1');
+    console.log(btn);
+    var menu = document.querySelector('.left-menu');
+    console.log(menu);
+    var container = document.querySelector('.container');
+    console.log(container); 
+    var blackDiv = document.querySelector('.container .black-div');
+    console.log(blackDiv);
 
-// lấy nội dung
-var x = document.getElementById('nav-top').innerHTML;
-// gán nội dung
-document.getElementsByClassName('video-items').innerHTML = 'TieuDe';
-// lấy bằng code css, tức là css của phần tử đó như thế nào thì nhập như thể ấy
-var z = document.querySelector('.top-nav form');
-// Tương tự như querySelector, nhưng lấy nhiều phần tử
-var o = document.querySelectorAll('.col-lg-12');
-
-    console.log();
-    alert('Nội dung thông báo đặt ở đây');
-// luu y cach dat ten
-// tên biến 
-var bienNayDungDeLuuGiaTriCuaA;
-// tên hằng số
-const handleDataChange = (e) => {
-}
-handleDataChange()
-const MAU_TOi_DA = 100;
+    btn.addEventListener('click',function(){
+        menu.classList.add('active');
+        container.classList.add('active2');
+        blackDiv.classList.add('active3');
+    })
+    blackDiv.addEventListener('click',function(){
+        menu.classList.remove('active');
+        container.classList.remove('active2');
+        blackDiv.classList.remove('active3');
+    })
 },false)
-document.addEventListener('',function(){},false)
+

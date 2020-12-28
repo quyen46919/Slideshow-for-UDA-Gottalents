@@ -1,18 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --menu-width: 300px;
+}
+body{
+    overflow: hidden;
+}
 .container{
     position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .25s;
+
+}
+.container.active2{
+    /* margin-left: 300px; */
+    transform: translateX(300px);
+}
+.left-menu{
+    width: var(--menu-width);
+    height: 100%;
+    background-color: aliceblue;
+    transform: translateX(-100%);
+    transition: .25s;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.container button.btn1{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .25s;
+}
+.container button.btn1:hover{
+    background-color: rgb(58, 250, 186);
+}
+.container button.btn1:focus{
+    outline: none;
+}
+.left-menu.active{
+    transform: translateX(0);
+}
+.container .black-div{
     height: 100%;
     width: 100%;
-}
+    /* background-color: black;
+    opacity: 0.5; */
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
 
-.menu{
-    height: 100vh;
-    width: 300px;
-    background-color: red;
     position: absolute;
-    transform: translateX(-400px);
-    transition: .25s;
-    color: white;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }
-.menu.active{
-    transform: translateX(0);
+.black-div.active3{
+    opacity: 1;
+    visibility: visible;
 }

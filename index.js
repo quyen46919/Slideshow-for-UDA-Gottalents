@@ -15,6 +15,9 @@ var o = document.querySelectorAll('.col-lg-12');
 // tên biến 
 var bienNayDungDeLuuGiaTriCuaA;
 // tên hằng số
+const handleDataChange = (e) => {
+}
+handleDataChange()
 const MAU_TOi_DA = 100;
 },false)
 document.addEventListener('',function(){},false)

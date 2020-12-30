@@ -64,7 +64,43 @@
 			</div>
 		</div> <!-- hết motslide -->
 		<div class="motslide">
-			
+			<div class="card-container">
+				<div class="card">
+					<div class="content">
+						<h2>01</h2>
+						<h3>IT19A1A</h3>
+						<p>NHẢY HIỆN ĐẠI</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="content">
+						<h2>02</h2>
+						<h3>BA17A3A</h3>
+						<p>MÚA CỔ TRUYỀN - HỒN THIÊN ĐẤT VIỆT</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="content">
+						<h2>03</h2>
+						<h3>AH18A1A</h3>
+						<p>ĐƠN CA - VIỆT NAM ĐẤT NƯỚC TÔI</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="content">
+						<h2>04</h2>
+						<h3>BE20A1A</h3>
+						<p>TRÌNH DIỄN VIẾT THƯ PHÁP</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="content">
+						<h2>05</h2>
+						<h3>BE20A1B</h3>
+						<p>VÕ CỔ TRUYỀN VIỆT NAM</p>
+					</div>
+				</div>
+			</div>
 		</div> <!-- hết motslide -->
 	</div> <!-- hết cacslide -->
 	<div class="chuyenslide">
@@ -73,10 +109,21 @@
 			<li>2</li>
 			<li>2</li>
 			<li>3</li>
+			<li>4</li>
 		</ul>
 	</div> <!-- hết chuyenslide -->
 	</div> <!-- hết slide_wrapper -->
 
- 	<script type="text/javascript" src="6.js"></script>
+	<script type="text/javascript" src="vanilla-tilt.js"></script>
+	 <script type="text/javascript" src="6.js"></script>
+	 
+	 <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare":1,
+	});
+    </script>
 </body>
 </html>

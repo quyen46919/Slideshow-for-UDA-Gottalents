@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+/* code for card effect */
 .card-container{
     background-image: linear-gradient(to left,#182848,#2c4b92);
     min-height: 100vh;
@@ -11,8 +6,8 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-.card-container .card{
+  }
+  .card-container .card{
     position: relative;
     width: 280px;
     height: 400px;
@@ -30,36 +25,37 @@
     border-top: 1px solid rgba(255,255,255,.5);
     border-left: 1px solid rgba(255,255,255,.5);
     backdrop-filter: blur(5px);
-}
-.card .content{
+  }
+  .card .content{
     padding: 20px;
     text-align: center;
     transition: .5s;
-}
-.card .content h2{
+  }
+  .card .content h2{
     position: absolute;
     top: -30px;
     right: 30px;
     font-size: 8em;
     color: rgba(255,255,255,.05);
     pointer-events: none;
-}
-.card .content h3{
+  }
+  .card .content h3{
     font-size: 1.8em;
     color: white;
     z-index: 1;
-}
-.card .content p{
+  }
+  .card .content p{
     font-size: 1em;
     color: white;
     font-weight: 300;
-}
-.card-container .card
-{
+  }
+  .card-container .card
+  {
     opacity: 0;
-    animation: cardAppear1 8s 1;
-}
-@-webkit-keyframes cardAppear1{
+    animation: cardAppear1 8s infinite;
+    animation-delay: 24s;
+  }
+  @-webkit-keyframes cardAppear1{
     0% {
         left: -500px;
         opacity: 0;
@@ -72,20 +68,21 @@
         left: 0;
         opacity: 1;
     }
-    90%{
-        /* left: 500px; */
+    100%{
+        left: 500px;
         opacity: 0;
     }
-}
-.card-container .card:nth-child(2){
-    animation-delay: .5s;
-}
-.card-container .card:nth-child(3){
-    animation-delay: 1s;
-}
-.card-container .card:nth-child(4){
-    animation-delay: 1.5s;
-}
-.card-container .card:nth-child(5){
-    animation-delay: 2s;
-}
+  }
+  .card-container .card:nth-child(2){
+    animation-delay: 24.25s;
+  }
+  .card-container .card:nth-child(3){
+    animation-delay: 24.5s;
+  }
+  .card-container .card:nth-child(4){
+    animation-delay: 24.75s;
+  }
+  .card-container .card:nth-child(5){
+    animation-delay: 25s;
+  }
+  

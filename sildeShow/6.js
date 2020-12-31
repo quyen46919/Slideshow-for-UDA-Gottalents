@@ -35,8 +35,6 @@ document.addEventListener('DOMContentLoaded', function(){
 			}
 
 		},8000);
-
-		
 	// } /*hết autoSlide*/
 
 	//xu li cho nut
@@ -69,9 +67,14 @@ document.addEventListener('DOMContentLoaded', function(){
 			homeSlides[i].classList.remove('active');
 			homeSlides[vitrinut].classList.add('active');
 		}
-
 		}
 	} // het xu li cho nut
 
-	// auto slide
+	// xu li hieu ung card
+	// VanillaTilt.init(document.querySelectorAll(".card"), {
+	// 	max: 25,
+    //     speed: 400,
+    //     glare: true,
+    //     "max-glare":1,
+	// });
 }, false)

@@ -1,0 +1,470 @@
+/* CODE FOR PRIZE */
+.prize-container .teamwork2 {
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: none;
+    background-image: linear-gradient(to left,#182848,#2c4b92);
+    transform: translate(-50%,-50%);
+    height: 500px;
+    font-family: segoe ui;
+  }
+  
+  .teamwork2 .benphai span{
+    animation : tora 0.6s forwards;
+    animation-delay: 40s;
+  }
+  .teamwork2 .benphai span.chuB{
+    animation-delay: 40.5s!important;
+  }
+  .teamwork2 .benphai span.chuC{
+    animation-delay: 41s!important;
+  }
+  .teamwork2 .benphai span.chuD{
+    animation-delay: 41.5s!important;
+  }
+  
+  @-webkit-keyframes tora{
+    0%{transform: scale(0); text-indent: -999; opacity: 0;}
+    50%{transform: scale(1.5); text-indent: -480; opacity: 0.8;}
+    100%{transform: scale(1); text-indent: 0;opacity: 1}
+  }
+  /*khoi code animation*/
+  .prize-container .bocngoai
+  {
+    animation:daira 1.2s forwards ;
+    animation-iteration-count: 1;
+   /* animation-delay: 0.4s;   */  
+  }
+  .prize-container .bocngoai1{
+    animation-delay: 0.6s;
+  }
+  .prize-container .bocngoai2{
+    animation-delay: 1.2s;
+  }
+  .prize-container .bocngoai3{
+    animation-delay: 1.8s;
+  }
+  
+  .prize-container .nda{
+     animation:daira2 1.2s forwards;
+    animation-iteration-count: 1;
+  }
+  .prize-container .bocngoai1 > .nda {
+    animation-delay: 0.6s;
+  }
+  .prize-container .bocngoai2 > .nda {
+    animation-delay: 1.2s;
+  }
+  .prize-container .bocngoai3 > .nda {
+    animation-delay: 1.8s;
+  }
+  
+  
+  @-webkit-keyframes daira{
+    from{ width: 0 ; opacity: 0; }
+    to {width: 300px; opacity: 1}
+  }
+  @-webkit-keyframes daira2{
+    from{ width: 0 ; opacity: 0; }
+    to {width: 290px; opacity: 1}
+  }
+  .prize-container .benphai .bocngoai {
+    height: 25px;
+    background: linear-gradient(90deg, rgba(251,56,56,1) 0%, rgba(188,40,40,1) 100%);
+    width: 0px;
+    left: 15px;
+    top: 18px;
+    padding: 22px 15px;
+    border-radius: 40px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .prize-container .benphai .bocngoai.bocngoai3 {
+    background: #ecec0a;
+    top: 42px;
+  }
+  
+  .prize-container .benphai .bocngoai.bocngoai2 {
+    top: 35px;
+    background: #07e407;
+  }
+  
+  .prize-container .benphai .bocngoai.bocngoai1 {
+    top: 25px;
+    background: #28c2f5;
+  }
+  
+  
+  .prize-container .teamwork2 .benphai .nda h6 {
+    padding-left: 47px;
+    margin-top: -10px;
+    font-size: 16px;
+  }
+  
+  .prize-container .teamwork2 .benphai span {
+    display: inline-block;
+    padding: 8px 18px;
+    background: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid white;
+    z-index: 3;
+    left: 288px;
+    cursor: pointer;
+  }
+  
+  .prize-container .benphai span.chuD {
+    background: #ecec0a;
+    top: 418px;
+    left: 350px;
+  }
+  
+  .prize-container .benphai span.chuC {
+    top: 341px;
+    left: 350px;
+    background: #07e407;
+  }
+  
+  .prize-container .benphai span.chuB {
+    top: 262px;
+    left: 350px;
+    background: #28c2f5;
+  }
+  
+  .prize-container .teamwork2 .benphai span.chuA {
+    background: #fb3838;
+    top: 184px;
+    left: 350px;
+  }
+  .prize-container .teamwork2 .benphai span{
+    opacity: 0;
+  }
+  .prize-container .teamwork2 .benphai {
+    float: left;
+    width: 60%;
+    height: 100%;
+  }
+  
+  .prize-container .teamwork2 .bentrai .daynoi2 {
+    width: 2px;
+    height: 228px;
+    background: black;
+    position: absolute;
+    left: 297px;
+  }
+  
+  .prize-container .teamwork2 .bentrai .daynoi1 {
+    width: 75px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 222px;
+    top: 338px;
+  }
+  
+  .prize-container .teamwork2 span.tamvongtron.tam1 {
+    background: #28c2f5!important;
+  }
+  
+  .prize-container .teamwork2 .khoitronnho.tron2 {
+    background: #28c2f5;
+    top: 110px;
+  }
+  
+  .prize-container .teamwork2 .khoitronnho.tron3 {
+    top: 170px;
+    background: #07e407;
+  }
+  
+  .prize-container .teamwork2 .khoitronnho span.tamvongtron {
+    position: absolute;
+    background: red;
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .prize-container .teamwork2 span.tamvongtron.tam2 {
+    background: #07e407;
+  }
+  
+  .prize-container .teamwork2 .khoitronnho {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    background: red;
+    border-radius: 50%;
+    left: 290px;
+    top: 46px;
+    z-index: 3;
+  }
+  
+  .prize-container .teamwork2 .khoitronnho.tron4 {
+    top: 230px;
+    background: #ecec0a;
+  }
+  
+  .prize-container .teamwork2 span.tamvongtron.tam3 {
+    background: #ecec0a;
+  }
+  
+  .prize-container .teamwork2 .logo span.xanhma {color: #009688;}
+  
+  .prize-container .teamwork2 .bentrai {
+    width: 40%;
+    height: 100%;
+    float: left;
+  }
+  
+  .prize-container .teamwork2 .khoiduoi .bentrai .khoilogo {
+    height: 120px;
+    width: 120px;
+    background: green;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    line-height: 25px;
+    display: inline-block;
+  }
+  
+  .prize-container .teamwork2 .khoiduoi {
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    height: 330px;
+  }
+  
+  .prize-container .teamwork2 h2.xam {
+    color: #4e4e4e;
+    margin-top: 30px;
+  }
+  
+  .prize-container .teamwork2 h2.cam {
+    color: #c9c92d;
+  }
+  
+  .prize-container .teamwork2 .khoichutren {height: 140px;width: 100%;text-align: center;text-transform: uppercase;font-size: 20px;}
+  
+  .prize-container .teamwork2 {
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: lightblue;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    font-family: segoe ui;
+  }
+  
+  .prize-container .teamwork2 .benphai .nda p {
+    font-size: 17px;
+    padding-left: 47px;
+  }
+  
+  .prize-container .teamwork2 .benphai .nda {
+    height: 29px;
+    background: #fb3838;
+    width: 0;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    padding: 11px;
+    border-radius: 40px;
+    border: 6px solid white;
+    z-index: 1;
+    color: white;
+    background: linear-gradient(180deg, rgba(251,56,56,1) 50%, rgba(228,54,54,1) 50%);
+    overflow: hidden;
+  }
+  
+  .prize-container .benphai .bocngoai3 .nda {
+    background: #ecec0a;
+  }
+  
+  .prize-container .benphai .bocngoai2 .nda {
+    background: #07e407;
+  }
+  
+  .prize-container .benphai .bocngoai1 .nda {
+    background: #28c2f5;
+  }
+  
+  .prize-container .teamwork2 .benphai .nda:before {
+    position: absolute;
+  }
+  
+  .prize-container .teamwork2 div.logo {
+    display: inline-block;
+    background: #272727;
+    padding: 58px 25px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-weight: 700;
+    color: white;
+    top: 258px;
+    left: 52px;
+    position: absolute;
+    box-shadow: -3px 3px 6px #969696;
+    cursor: pointer;
+  }
+  
+  .prize-container .teamwork2 div.logo:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0;
+    width: 0;
+    border: 82px solid #8e8e8e;
+    opacity: 0.5;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-45deg);
+    z-index: 1;
+    opacity: 0.2;
+    }
+  .prize-container ._1phantu .nenchogradient{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(135deg, rgba(246,175,255,0.5) 29%
+        , rgba(253,230,159,0.5) 100%)!important;
+    z-index:0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .prize-container ._1phantu .khoitronan{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    background: #ffff8bc4;
+    top: -173px;
+    border-radius: 50%;
+    left: -49px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .prize-container .khungngoai .khoiandi {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    background: #ffff70;
+    color: white;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 9px 48px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .prize-container .khoiandi i.fab {
+    margin-left: 13px!important;
+    color: #464646;
+    transition: 0.4s;
+  }
+  
+  .prize-container .khoiandi i.fab:hover {
+    color: #ff5b5b;
+    transform: scale(1.2);
+  }
+  
+  .prize-container ._1phantu .thongtin {
+    position: absolute;
+    top: 278px;
+    width: 70%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    color: black;
+    z-index: 30;
+    cursor: pointer;
+    font-family: segoe ui;
+  }
+  
+  .prize-container ._1phantu .khoianh {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
+  .prize-container ._1phantu .khoianh img{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 30;
+    transition: 0.4s ease-in-out;
+  }
+  .prize-container ._1phantu:hover .khoianh img{
+    border: 12px solid #ffff70;
+  }
+  
+  .prize-container .khungngoai ._1phantu {
+    height: 400px;
+    width: 20%;
+    background: #ffffff;
+    position: relative;
+    margin: 90px 36.5px;
+  }
+  
+  .prize-container ._1phantu {
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    border: 1px solid silver;
+    float: left;
+    box-shadow: 2px 2px 1px silver;
+    background:white;
+    text-align: center;
+  }
+  /*code hover*/
+  .prize-container ._1phantu:hover .khoitronan{
+    opacity: 1;
+  }
+  .prize-container ._1phantu:hover .khoiandi{
+    opacity: 1;
+  }
+  .prize-container ._1phantu:hover .nenchogradient{
+    opacity: 1;
+  }
+  /*xu li hieu ung*/
+  .prize-container .khungngoai{
+    opacity: 0;
+    visibility: hidden;
+  }
+  /*code an*/
+  .prize-container{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #28c2f5; */
+    background-image: linear-gradient(to left,#182848,#2c4b92);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

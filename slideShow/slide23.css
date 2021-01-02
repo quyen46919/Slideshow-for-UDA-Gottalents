@@ -15,7 +15,7 @@
   }
   
   .container2 p {
-	position: relative;
+	position: absolute;
 	text-align: center;
 	font-size: 60px;
 	text-transform: uppercase;
@@ -29,16 +29,28 @@
 	-webkit-text-fill-color: transparent;
 	animation: shine 8s linear infinite;
 	animation-delay: 8s;
+	opacity: 0;
   }
   .container2 p:nth-child(2){
-    animation-delay: 3s;
+	/* opacity: 0; */
+	animation-delay: 12s;
+	color: red;
   }
   @keyframes shine {
 	0% {
-	  background-position-x: -500%;
+		background-position-x: -500%;
+		opacity: 1;
 	}
-	
+	45% {
+		background-position-x: 500%;
+		opacity: 1;
+	}
+	50% {
+		background-position-x: 500%;
+		opacity: 0;
+	}
 	100% {
-	  background-position-x: 500%;
+		background-position-x: 500%;
+		opacity: 0;
 	}
   }

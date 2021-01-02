@@ -15,10 +15,10 @@
 }
 .text1{
     color: white;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 700;
     letter-spacing: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     background: black;
     /* background: radial-gradient( at right, #0d1d31 0%, #0c0d13); */
     position: relative;
@@ -40,11 +40,14 @@
       letter-spacing: 25px;
       margin-bottom: -80px;
   }
-  35%{
+  30%{
       letter-spacing: 8px;
       margin-bottom: -80px;
-}
-
+  }
+  38%{
+    letter-spacing: 8px;
+    margin-bottom: 0px;
+  }
 }
 /* code for star night effect */
   .stars {
@@ -225,7 +228,7 @@
     height: 100%;
     background: linear-gradient(45deg, transparent, currentColor, transparent);
     border-radius: inherit;
-    animation: blink 2s linear infinite;
+    animation: blink 1s linear infinite;
   }
   .star::before {
     transform: rotate(45deg);

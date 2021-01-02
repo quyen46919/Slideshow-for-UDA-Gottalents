@@ -60,11 +60,11 @@
         left: -500px;
         opacity: 0;
     }
-    30%{
+    20%{
         left: 0;
         opacity: 1;
     }
-    85%{
+    75%{
         left: 0;
         opacity: 1;
     }

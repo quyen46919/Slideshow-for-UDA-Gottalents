@@ -1,6 +1,7 @@
 /* code for card effect */
 .card-container{
     background-image: linear-gradient(to left,#182848,#2c4b92);
+    /* background-color: white!important; */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -53,7 +54,7 @@
   {
     opacity: 0;
     animation: cardAppear1 8s infinite;
-    animation-delay: 24s;
+    animation-delay: 16s;
   }
   @-webkit-keyframes cardAppear1{
     0% {
@@ -74,15 +75,23 @@
     }
   }
   .card-container .card:nth-child(2){
-    animation-delay: 24.25s;
+    animation-delay: 16.25s;
   }
   .card-container .card:nth-child(3){
-    animation-delay: 24.5s;
+    animation-delay: 16.25s;
   }
   .card-container .card:nth-child(4){
-    animation-delay: 24.75s;
+    animation-delay: 16.5s;
   }
   .card-container .card:nth-child(5){
-    animation-delay: 25s;
+    animation-delay: 16.75s;
   }
-  
+  .card-container .card:nth-child(6){
+    animation-delay: 17s;
+  }
+@media (min-width: 992px) and (max-width: 1400px){
+
+  .card-container .card{
+    margin: 5px!important;
+  }
+}

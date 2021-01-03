@@ -4,7 +4,10 @@ body{
 	width: 100%;
 	/* overflow-x: hidden; */
 	background-color: black;
+	/* background-image: linear-gradient(to left,#182848,#2c4b92); */
+    overflow: hidden;
 	font-family: sans-serif;
+
 }
 .slide_wrapper{
 	height: 100%;
@@ -19,6 +22,12 @@ body{
 	list-style: none;	
 	position: relative;
 	text-align: center;
+	animation: showOn 1s 1 112s forwards;
+	opacity: 0;
+}
+@-webkit-keyframes showOn{
+	from{ opacity: 0 ;}
+	to{ opacity: 1;}
 }
 
 .chuyenslide ul {
@@ -39,7 +48,8 @@ body{
     border-radius: 50%;
     cursor: pointer;
     margin:  0 8px;
-    transition: 0.4s;
+	transition: 0.4s;
+	opacity: 0.2;
 }
 
 .chuyenslide ul li:hover{
@@ -61,10 +71,34 @@ body{
 }
 
 .slide_wrapper .chuyenslide{
-  z-index: 4;
-  /* top: -80px; */
+	z-index: 4;
+	position: absolute;
+	bottom: 12px!important;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+
+.computer{
+	display: none;
 }
 
-
-
+@media (max-width: 1200px){
+	.slide_wrapper{
+		display: none;
+	}
+	.computer{
+		height: 100px;
+		width: 100%;
+		text-align: center;
+		display: block;
+		color: white;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.card-container .card{
+		margin: 5px!important;
+	}
+}
 

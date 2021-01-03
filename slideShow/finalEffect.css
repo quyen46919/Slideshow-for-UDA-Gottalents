@@ -15,33 +15,33 @@
     font-size: 90px;
     font-weight: bold;
     color: white;
-    animation: onesecond 8s 1 forwards 48.5s;
+    animation: onesecond 8s 1 forwards 104.5s;
     opacity: 0;
 }
 .f-text:nth-child(2){
-    animation-delay: 48.8s;
+    animation-delay: 104.8s;
 }
 .f-text:nth-child(3){
-    animation-delay: 49.1s;
+    animation-delay: 105.1s;
 }
 .f-text:nth-child(4){
-    animation-delay: 49.4s;
+    animation-delay: 105.4s;
 }
 .f-text:nth-child(5){
-    animation-delay: 49.7s;
+    animation-delay: 105.7s;
 }
 .f-text:nth-child(6){
-    animation-delay: 50s;
+    animation-delay: 106s;
 }
 .f-text:nth-child(7){
-    animation-delay: 50.3s;
+    animation-delay: 106.3s;
 }
 .f-text:nth-child(8){
-    animation-delay: 50.6s;
+    animation-delay: 106.6s;
 }
-.f-text:nth-child(9){
-    animation-delay: 50.9s;
-}
+/* .f-text:nth-child(9){
+    animation-delay: 106.9s;
+} */
 /* .f-text:nth-child(10){
     animation-delay: 5s;
 }
@@ -52,7 +52,7 @@
     position:unset;
     font-size: 40px;
     animation: lastText 3s 1 forwards;
-    animation-delay: 51.2s;
+    animation-delay: 106.9s;
     display: block;
     text-align: center;
 }

@@ -9,7 +9,7 @@
   transform: translate(-50%,-50%);
   height: 500px;
   font-family: segoe ui;
-  animation: showOnPrize 8s 1 40s;
+  animation: showOnPrize 8s 1 96s;
 }
 @-webkit-keyframes showOnPrize{
   0% {
@@ -20,7 +20,7 @@
       opacity: 1;
       /* left: 50%; */
   }
-  90% {
+  85% {
     opacity: 1;
     /* left: 50%; */
   }
@@ -29,16 +29,16 @@
 
 .teamwork2 .benphai span{
   animation : tora 0.6s forwards;
-  animation-delay: 40.25s;
+  animation-delay: 96.25s;
 }
 .teamwork2 .benphai span.chuB{
-  animation-delay: 40.5s!important;
+  animation-delay: 96.5s!important;
 }
 .teamwork2 .benphai span.chuC{
-  animation-delay: 40.75s!important;
+  animation-delay: 96.75s!important;
 }
 .teamwork2 .benphai span.chuD{
-  animation-delay: 41.0s!important;
+  animation-delay: 97.0s!important;
 }
 
 @-webkit-keyframes tora{
@@ -51,31 +51,31 @@
 {
   animation:daira 1.2s forwards ;
   animation-iteration-count: 1;
-  animation-delay: 40.25s;    
+  animation-delay: 96.25s;    
 }
 .prize-container .bocngoai1{
-  animation-delay: 40.5s;
+  animation-delay: 96.5s;
 }
 .prize-container .bocngoai2{
-  animation-delay: 40.75s;
+  animation-delay: 96.75s;
 }
 .prize-container .bocngoai3{
-  animation-delay: 41s;
+  animation-delay: 97s;
 }
 
 .prize-container .nda{
    animation:daira2 1.2s forwards;
   animation-iteration-count: 1;
-  animation-delay: 40.25s;
+  animation-delay: 96.25s;
 }
 .prize-container .bocngoai1 > .nda {
-  animation-delay: 40.5s;
+  animation-delay: 96.5s;
 }
 .prize-container .bocngoai2 > .nda {
-  animation-delay: 40.75s;
+  animation-delay: 96.75s;
 }
 .prize-container .bocngoai3 > .nda {
-  animation-delay: 41s;
+  animation-delay: 97s;
 }
 
   @-webkit-keyframes daira{
